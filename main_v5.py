@@ -12,8 +12,8 @@ session_url = 'https://www.alacalc.com/api/v1/sessions'
 login_url = session_url
 #login details
 login_data = {
-    'email': "Matthew.Marshall@royalautomobileclub.co.uk",
-    'api_access_key': "6f815087918983ca4dc13228c4b4dffa"
+    'email': "email",
+    'api_access_key': "API_KEY"
 }
 #establish variable repsone to post data
 response = requests.post(login_url, data=login_data)
